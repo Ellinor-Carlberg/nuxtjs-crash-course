@@ -1,14 +1,16 @@
 <template>
- <div>
-   <h2>Welcome to the best corny dad jokes app on the webb</h2>
- </div>
+<div>
+    <h1>About DadJokes</h1>
+    <p>This is an app that displays corny dad jokes</p>
+</div>
+  
 </template>
 
 <script>
 export default {
     head() {
         return {
-            title: 'Welcome to dad jokes',
+            title: 'About the app',
             meta: [
                 {
                     hid: 'description',
